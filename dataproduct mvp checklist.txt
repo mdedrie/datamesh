@@ -1,0 +1,37 @@
+The Data Product MVP Checklist 
+ 
+
+In addition to their hypothesized value and business purpose, for each data product, we clearly define the following criteria, to help everyone understand their purpose and value:
+
+ 
+
+Minimum requirements for Data Products
+
+ 
+
+Mandatory:
+
+ 
+
+Owner / Steward (first point of contact for the data product, approver of access)
+
+Data Product name (unique to the data domain)
+
+Description of the Data Product
+
+Data sharing agreement (published on a common marketplace catalog (e.g. Collibra))
+
+"Open Access" or "Access Approval Required" (approval granted by DP Owner)
+
+Published Data Access Policy: Define who is/isn't allowed access to the data
+
+Distribution rights: Whether modified (aggregated, filtered, merged) or unmodified data can be distributed to third parties by the consumer
+
+SLO
+
+Port (a delivery mechanism for the Data Product)
+
+Data Product type (consumer-oriented or source-oriented)
+Business Domain (Business Function)
+
+Data Privacy, Classification and compliance (*mandatory only for regulated industries such as healthcare, banking etc.)
