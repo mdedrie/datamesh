@@ -1,0 +1,19 @@
+Vous devez garder en mot d'ordre qu'un produit de données doit : 
+- être responsable du design de son produit de données
+- être responsable de ces contrats de données (structure, format, sémentique, qualité et conditions d'utilisation et d'échange de la données) 
+- être responsable de l'ingestion et de la transormation de la données (DATA PIPELINE)
+- être responsable des services liées à son produit (micro-service, événement, front-web..) 
+- être responsable du stockage de ces données opérationnelles (dans une base de données, et ou via un solution de messaging (kafka, rabbitMQ)), quelque soit la source : système externe (SAAS, Web Analytics, API,...), système interne (ERP, CRM, WEB Service, Logiciel interne, courtier de message,...) 
+- être responsable des contrats d'interfaces de ces données (besoin de quoi et pour quoi faire)
+- être responsable de la qualité et de l'intégrité de ces données 
+- être responsable du catalogue de données de son produit (terminologie unique, définitions, origine de la données, définition des traitements sur la données)
+- être responsable de l'ailimentation du datalake (data réplication 1=1) pour le domaine analytics (datalake, data pipeline, dataware house, dataflow, power-bi) 
+
+Un produit de données doit : 
+- être regroupé avec un ensemble de produit de données au moyen d'un nom de Domaine 
+- porté un nom claire sur la vocation et le role de ce produit
+- Avoir une définition claire et précise de son produit de données 
+- avoir identifier les possibilitées d'INPUT : sources de données internes ou externes et/ou depuis un autre domaine et data products
+- avoir défini les données en sortie OUTPUT : format, protocol, définition 
+- avoir défini les métadata de son produit : schéma (attribut, data types, contraintes, relations avec d'autres éléments), sémantics (description, model logique)
+- avoir défini des cas d'usages de son produit 
